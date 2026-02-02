@@ -14,3 +14,4 @@ C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\D
 C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.pdb
 C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.genruntimeconfig.cache
 C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\ref\My First Calculator.dll
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.sourcelink.json

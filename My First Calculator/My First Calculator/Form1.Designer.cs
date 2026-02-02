@@ -44,7 +44,9 @@
             button13 = new Button();
             button14 = new Button();
             button15 = new Button();
+            label1 = new Label();
             textBox2 = new TextBox();
+            label2 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -52,7 +54,7 @@
             textBox1.Font = new Font("Segoe UI", 30F);
             textBox1.Location = new Point(12, 12);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(441, 87);
+            textBox1.Size = new Size(159, 87);
             textBox1.TabIndex = 0;
             textBox1.TextAlign = HorizontalAlignment.Right;
             textBox1.TextChanged += textBox1_TextChanged;
@@ -65,6 +67,7 @@
             button1.TabIndex = 1;
             button1.Text = "+";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -74,6 +77,7 @@
             button2.TabIndex = 2;
             button2.Text = "-";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -83,6 +87,7 @@
             button3.TabIndex = 3;
             button3.Text = "x";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -92,6 +97,7 @@
             button4.TabIndex = 4;
             button4.Text = "/";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -192,19 +198,42 @@
             button15.Text = "0";
             button15.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 16F);
+            label1.Location = new Point(235, 30);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 45);
+            label1.TabIndex = 18;
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // textBox2
             // 
-            textBox2.Location = new Point(12, 113);
+            textBox2.Font = new Font("Segoe UI", 30F);
+            textBox2.Location = new Point(294, 12);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(336, 31);
-            textBox2.TabIndex = 17;
+            textBox2.Size = new Size(159, 87);
+            textBox2.TabIndex = 19;
+            textBox2.TextAlign = HorizontalAlignment.Right;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 20F);
+            label2.Location = new Point(12, 115);
+            label2.Name = "label2";
+            label2.Size = new Size(0, 54);
+            label2.TabIndex = 20;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(465, 587);
+            Controls.Add(label2);
             Controls.Add(textBox2);
+            Controls.Add(label1);
             Controls.Add(button15);
             Controls.Add(button12);
             Controls.Add(button13);
@@ -222,7 +251,7 @@
             Controls.Add(button1);
             Controls.Add(textBox1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "My First Caculator";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -245,6 +274,8 @@
         private Button button13;
         private Button button14;
         private Button button15;
+        private Label label1;
         private TextBox textBox2;
+        private Label label2;
     }
 }
