@@ -1,0 +1,16 @@
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\bin\Debug\net10.0-windows\My First Calculator.exe
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\bin\Debug\net10.0-windows\My First Calculator.deps.json
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\bin\Debug\net10.0-windows\My First Calculator.runtimeconfig.json
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\bin\Debug\net10.0-windows\My First Calculator.dll
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\bin\Debug\net10.0-windows\My First Calculator.pdb
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My_First_Calculator.Form1.resources
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.csproj.GenerateResource.cache
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.AssemblyInfoInputs.cache
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.AssemblyInfo.cs
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.dll
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\refint\My First Calculator.dll
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.pdb
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\My First Calculator.genruntimeconfig.cache
+C:\Users\Jonat\source\repos\CSC202\My First Calculator\My First Calculator\obj\Debug\net10.0-windows\ref\My First Calculator.dll
