@@ -1,0 +1,18 @@
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\bin\Debug\net10.0-windows\Catapult Simulator.exe
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\bin\Debug\net10.0-windows\Catapult Simulator.deps.json
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\bin\Debug\net10.0-windows\Catapult Simulator.runtimeconfig.json
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\bin\Debug\net10.0-windows\Catapult Simulator.dll
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\bin\Debug\net10.0-windows\Catapult Simulator.pdb
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult_Simulator.Form1.resources
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult_Simulator.Properties.Resources.resources
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult Simulator.csproj.GenerateResource.cache
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult Simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult Simulator.AssemblyInfoInputs.cache
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult Simulator.AssemblyInfo.cs
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult Simulator.dll
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\refint\Catapult Simulator.dll
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult Simulator.pdb
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult Simulator.genruntimeconfig.cache
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\ref\Catapult Simulator.dll
+C:\Users\Jonat\source\repos\Catapult Simulator\Catapult Simulator\obj\Debug\net10.0-windows\Catapult_Simulator.Launch_Outcome.resources
