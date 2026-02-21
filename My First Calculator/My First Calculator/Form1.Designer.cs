@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             textBox1 = new TextBox();
-            button1 = new Button();
+            Add_Button = new Button();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -57,17 +57,16 @@
             textBox1.Size = new Size(159, 87);
             textBox1.TabIndex = 0;
             textBox1.TextAlign = HorizontalAlignment.Right;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
-            // button1
+            // Add_Button
             // 
-            button1.Location = new Point(369, 113);
-            button1.Name = "button1";
-            button1.Size = new Size(84, 74);
-            button1.TabIndex = 1;
-            button1.Text = "+";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            Add_Button.Location = new Point(369, 113);
+            Add_Button.Name = "Add_Button";
+            Add_Button.Size = new Size(84, 74);
+            Add_Button.TabIndex = 1;
+            Add_Button.Text = "+";
+            Add_Button.UseVisualStyleBackColor = true;
+            Add_Button.Click += Add_Click;
             // 
             // button2
             // 
@@ -77,7 +76,7 @@
             button2.TabIndex = 2;
             button2.Text = "-";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            button2.Click += Subtract_Click;
             // 
             // button3
             // 
@@ -87,7 +86,7 @@
             button3.TabIndex = 3;
             button3.Text = "x";
             button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            button3.Click += Multiply_Click;
             // 
             // button4
             // 
@@ -97,7 +96,7 @@
             button4.TabIndex = 4;
             button4.Text = "/";
             button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            button4.Click += Divide_Click;
             // 
             // button5
             // 
@@ -110,7 +109,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(235, 193);
+            button7.Location = new Point(225, 234);
             button7.Name = "button7";
             button7.Size = new Size(84, 74);
             button7.TabIndex = 7;
@@ -119,7 +118,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(145, 193);
+            button8.Location = new Point(135, 234);
             button8.Name = "button8";
             button8.Size = new Size(84, 74);
             button8.TabIndex = 8;
@@ -128,7 +127,7 @@
             // 
             // button9
             // 
-            button9.Location = new Point(55, 193);
+            button9.Location = new Point(45, 234);
             button9.Name = "button9";
             button9.Size = new Size(84, 74);
             button9.TabIndex = 9;
@@ -137,7 +136,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(55, 273);
+            button6.Location = new Point(45, 314);
             button6.Name = "button6";
             button6.Size = new Size(84, 74);
             button6.TabIndex = 12;
@@ -146,7 +145,7 @@
             // 
             // button10
             // 
-            button10.Location = new Point(145, 273);
+            button10.Location = new Point(135, 314);
             button10.Name = "button10";
             button10.Size = new Size(84, 74);
             button10.TabIndex = 11;
@@ -155,7 +154,7 @@
             // 
             // button11
             // 
-            button11.Location = new Point(235, 273);
+            button11.Location = new Point(225, 314);
             button11.Name = "button11";
             button11.Size = new Size(84, 74);
             button11.TabIndex = 10;
@@ -164,7 +163,7 @@
             // 
             // button12
             // 
-            button12.Location = new Point(55, 353);
+            button12.Location = new Point(45, 394);
             button12.Name = "button12";
             button12.Size = new Size(84, 74);
             button12.TabIndex = 15;
@@ -173,7 +172,7 @@
             // 
             // button13
             // 
-            button13.Location = new Point(145, 353);
+            button13.Location = new Point(135, 394);
             button13.Name = "button13";
             button13.Size = new Size(84, 74);
             button13.TabIndex = 14;
@@ -182,7 +181,7 @@
             // 
             // button14
             // 
-            button14.Location = new Point(235, 353);
+            button14.Location = new Point(225, 394);
             button14.Name = "button14";
             button14.Size = new Size(84, 74);
             button14.TabIndex = 13;
@@ -191,7 +190,7 @@
             // 
             // button15
             // 
-            button15.Location = new Point(145, 433);
+            button15.Location = new Point(135, 474);
             button15.Name = "button15";
             button15.Size = new Size(84, 74);
             button15.TabIndex = 16;
@@ -248,7 +247,7 @@
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(Add_Button);
             Controls.Add(textBox1);
             Name = "Form1";
             Text = "My First Caculator";
@@ -259,7 +258,7 @@
         #endregion
 
         private TextBox textBox1;
-        private Button button1;
+        private Button Add_Button;
         private Button button2;
         private Button button3;
         private Button button4;

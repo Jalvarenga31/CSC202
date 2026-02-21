@@ -26,10 +26,11 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jonat\\source\\repos\\CSC202\\My First Calculator\\My First Calculator\\Form1.cs",
               "RelativeDocumentMoniker": "My First Calculator\\Form1.cs",
-              "ToolTip": "C:\\Users\\Jonat\\source\\repos\\CSC202\\My First Calculator\\My First Calculator\\Form1.cs [Design]*",
-              "RelativeToolTip": "My First Calculator\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\Jonat\\source\\repos\\CSC202\\My First Calculator\\My First Calculator\\Form1.cs [Design]",
+              "RelativeToolTip": "My First Calculator\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T00:58:14.261Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
@@ -38,11 +39,12 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Jonat\\source\\repos\\CSC202\\My First Calculator\\My First Calculator\\Form1.cs",
               "RelativeDocumentMoniker": "My First Calculator\\Form1.cs",
-              "ToolTip": "C:\\Users\\Jonat\\source\\repos\\CSC202\\My First Calculator\\My First Calculator\\Form1.cs*",
-              "RelativeToolTip": "My First Calculator\\Form1.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwEkAAABcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Jonat\\source\\repos\\CSC202\\My First Calculator\\My First Calculator\\Form1.cs",
+              "RelativeToolTip": "My First Calculator\\Form1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T01:00:20.17Z",
+              "WhenOpened": "2026-02-21T04:13:50.575Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]
