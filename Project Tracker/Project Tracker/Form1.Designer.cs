@@ -33,6 +33,8 @@
             txtProjectName = new TextBox();
             txtData = new TextBox();
             lstProjects = new ListBox();
+            btnSave = new Button();
+            btnLoad = new Button();
             SuspendLayout();
             // 
             // btnAdd
@@ -77,11 +79,33 @@
             lstProjects.Size = new Size(559, 354);
             lstProjects.TabIndex = 4;
             // 
+            // btnSave
+            // 
+            btnSave.Location = new Point(160, 468);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new Size(131, 34);
+            btnSave.TabIndex = 5;
+            btnSave.Text = "Save";
+            btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
+            // 
+            // btnLoad
+            // 
+            btnLoad.Location = new Point(297, 468);
+            btnLoad.Name = "btnLoad";
+            btnLoad.Size = new Size(131, 34);
+            btnLoad.TabIndex = 6;
+            btnLoad.Text = "Load";
+            btnLoad.UseVisualStyleBackColor = true;
+            btnLoad.Click += btnLoad_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(583, 450);
+            ClientSize = new Size(588, 528);
+            Controls.Add(btnLoad);
+            Controls.Add(btnSave);
             Controls.Add(lstProjects);
             Controls.Add(txtData);
             Controls.Add(txtProjectName);
@@ -100,5 +124,7 @@
         private TextBox txtProjectName;
         private TextBox txtData;
         private ListBox lstProjects;
+        private Button btnSave;
+        private Button btnLoad;
     }
 }

@@ -1,5 +1,6 @@
 using System.Xml.Linq;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Project_Tracker
 {
@@ -8,6 +9,8 @@ namespace Project_Tracker
         //We first create two arrays to hold the project names and their corresponding details.
         string[] projects = new string[0];
         string[] details = new string[0];
+        string namesFile = "ProjectNames.txt";
+        string combinedFile = "FullData.txt";
 
         public Form1()
         {
@@ -82,6 +85,65 @@ namespace Project_Tracker
             txtProjectName.Clear();
             txtData.Clear();
             txtProjectName.Focus();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Here we create a file to save the project names and another file to save the combined data
+                File.WriteAllLines(namesFile, projects);
+
+                //Using a loop we read off what's in the array and rewrite it into a text file.
+                string[] combinedData = new string[projects.Length];
+                for (int i = 0; i < projects.Length; i++)
+                {
+                    combinedData[i] = $"{projects[i]} | Due: {details[i]}";
+                }
+                File.WriteAllLines(combinedFile, combinedData);
+                //I user feedback message to let them know the data was saved successfully
+                MessageBox.Show("Data saved successfully to separate files!", "Success");
+            }
+            catch (IOException ex)
+            {//if something goes wrong with the file writing process, we catch the exception and display an error message to the user.
+                MessageBox.Show($"File error: {ex.Message}", "Save Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            try
+            {//first we look for the combined file.
+                if (!File.Exists(combinedFile))
+                {
+                    throw new FileNotFoundException("No saved data found.");
+                }
+
+                //Here we create a new array by reading the text written in the combined file.
+                string[] lines = File.ReadAllLines(combinedFile);
+
+                //we count how many lines there are in the file. This will determine how big we need to make our arrays to hold the data.
+                projects = new string[lines.Length];
+                details = new string[lines.Length];
+
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    //using a loop we go through each line of the file and split it into the project name and its details
+                    string[] parts = lines[i].Split(new string[] { " | Due: " }, StringSplitOptions.None);
+                    if (parts.Length == 2)
+                    {
+                        projects[i] = parts[0];
+                        details[i] = parts[1];
+                    }
+                }
+
+                UpdateDisplay();
+                MessageBox.Show("Data loaded into the application!", "Success");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Load error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
