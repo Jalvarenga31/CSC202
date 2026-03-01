@@ -1,0 +1,17 @@
+C:\Users\Jonat\source\repos\Music Library\Music Library\bin\Debug\net10.0-windows\Music Library.exe
+C:\Users\Jonat\source\repos\Music Library\Music Library\bin\Debug\net10.0-windows\Music Library.deps.json
+C:\Users\Jonat\source\repos\Music Library\Music Library\bin\Debug\net10.0-windows\Music Library.runtimeconfig.json
+C:\Users\Jonat\source\repos\Music Library\Music Library\bin\Debug\net10.0-windows\Music Library.dll
+C:\Users\Jonat\source\repos\Music Library\Music Library\bin\Debug\net10.0-windows\Music Library.pdb
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music_Library.LibraryPopup.resources
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music Library.csproj.GenerateResource.cache
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music Library.AssemblyInfoInputs.cache
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music Library.AssemblyInfo.cs
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music Library.csproj.CoreCompileInputs.cache
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music Library.dll
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\refint\Music Library.dll
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music Library.pdb
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music Library.genruntimeconfig.cache
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\ref\Music Library.dll
+C:\Users\Jonat\source\repos\Music Library\Music Library\obj\Debug\net10.0-windows\Music_Library.MusicLibrary.resources

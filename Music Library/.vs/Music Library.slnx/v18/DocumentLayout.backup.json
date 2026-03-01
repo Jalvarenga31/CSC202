@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jonat\\source\\repos\\Music Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73114B6D-D04A-B634-72F9-CC9879F874CA}|Music Library\\Music Library.csproj|c:\\users\\jonat\\source\\repos\\music library\\music library\\musiclibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73114B6D-D04A-B634-72F9-CC9879F874CA}|Music Library\\Music Library.csproj|solutionrelative:music library\\musiclibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73114B6D-D04A-B634-72F9-CC9879F874CA}|Music Library\\Music Library.csproj|c:\\users\\jonat\\source\\repos\\music library\\music library\\musiclibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73114B6D-D04A-B634-72F9-CC9879F874CA}|Music Library\\Music Library.csproj|solutionrelative:music library\\musiclibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73114B6D-D04A-B634-72F9-CC9879F874CA}|Music Library\\Music Library.csproj|c:\\users\\jonat\\source\\repos\\music library\\music library\\librarypopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73114B6D-D04A-B634-72F9-CC9879F874CA}|Music Library\\Music Library.csproj|solutionrelative:music library\\librarypopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73114B6D-D04A-B634-72F9-CC9879F874CA}|Music Library\\Music Library.csproj|c:\\users\\jonat\\source\\repos\\music library\\music library\\librarypopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73114B6D-D04A-B634-72F9-CC9879F874CA}|Music Library\\Music Library.csproj|solutionrelative:music library\\librarypopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MusicLibrary.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jonat\\source\\repos\\Music Library\\Music Library\\MusicLibrary.cs",
+              "RelativeDocumentMoniker": "Music Library\\MusicLibrary.cs",
+              "ToolTip": "C:\\Users\\Jonat\\source\\repos\\Music Library\\Music Library\\MusicLibrary.cs [Design]",
+              "RelativeToolTip": "Music Library\\MusicLibrary.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T14:31:14.66Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MusicLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\Jonat\\source\\repos\\Music Library\\Music Library\\MusicLibrary.cs",
+              "RelativeDocumentMoniker": "Music Library\\MusicLibrary.cs",
+              "ToolTip": "C:\\Users\\Jonat\\source\\repos\\Music Library\\Music Library\\MusicLibrary.cs",
+              "RelativeToolTip": "Music Library\\MusicLibrary.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAJYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T14:32:09.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibraryPopup.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jonat\\source\\repos\\Music Library\\Music Library\\LibraryPopup.cs",
+              "RelativeDocumentMoniker": "Music Library\\LibraryPopup.cs",
+              "ToolTip": "C:\\Users\\Jonat\\source\\repos\\Music Library\\Music Library\\LibraryPopup.cs [Design]",
+              "RelativeToolTip": "Music Library\\LibraryPopup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T15:05:51.128Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibraryPopup.cs",
+              "DocumentMoniker": "C:\\Users\\Jonat\\source\\repos\\Music Library\\Music Library\\LibraryPopup.cs",
+              "RelativeDocumentMoniker": "Music Library\\LibraryPopup.cs",
+              "ToolTip": "C:\\Users\\Jonat\\source\\repos\\Music Library\\Music Library\\LibraryPopup.cs",
+              "RelativeToolTip": "Music Library\\LibraryPopup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T15:06:09.639Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
